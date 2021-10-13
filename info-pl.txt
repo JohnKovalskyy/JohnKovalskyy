@@ -1,0 +1,2 @@
+Projekt zawiera pliki .PHP, do działania których potrzebuje pakietu XAMPP.
+Korzysta również z bazy danych "strona", której zrzut znajduje się w pliku "strona.sql".
