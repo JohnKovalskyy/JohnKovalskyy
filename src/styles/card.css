@@ -1,0 +1,15 @@
+.card_block{
+  font-size:110%;
+  text-align:left;
+  display:inline-block;
+  box-sizing:border-box;
+  width:15vw;
+  height:27vh;
+  margin:0.7%;
+  margin-bottom:0.5%;
+  background-color:rgb(110, 132, 169);
+  padding:1%;
+}
+.card_block:hover{
+  background-color:rgba(110, 132, 169, 0.7);
+}

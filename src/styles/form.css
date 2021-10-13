@@ -1,0 +1,18 @@
+form{
+  width:90%;
+  height:100%;
+  margin:auto;
+  font-size:120%;
+}
+option, input[type='number'], input[type='submit']{
+  appearance:none;
+  cursor:pointer;
+  width:75%;
+  height:12%;
+  margin:7%;
+  background-color:rgba(88, 101, 169, 0.8);
+  text-align:center;
+  border:0.3vh solid black;
+  border-radius:4%;
+  font-size:130%;
+}

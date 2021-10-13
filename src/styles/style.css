@@ -1,0 +1,126 @@
+*{
+  font-size:100%;
+  font-family:comic;
+  word-break:break-word;
+  overflow:hidden;
+}
+body{
+  overflow:auto;
+  margin:0;
+  border:0;
+  font-size:2vh;
+  font-family:comic;
+  height:100vh;
+  width:100vw;
+  box-sizing:border-box;
+  text-align:center;
+  background-color:#494949;
+}
+main{
+  height:100%;
+  width:100%;
+  display:grid;
+  grid-template-columns:1fr 3fr 1fr 1fr;
+  grid-template-rows:1fr 8fr 1fr;
+  grid-template-areas:'index play cards rules' 'section section section section'
+'footer footer footer footer';
+  grid-row-gap:1%;
+}
+a, a:link, a:visited, a:hover, a:active{
+  text-decoration:none;
+  color:black;
+}
+#index, #play, #cards, #rules{
+  background-color:#2469a5;
+  opacity:0.7;
+  border:0.3vw solid #203530;
+  border-top:0;
+  border-left:0;
+}
+#index{
+  grid-area:index;
+  border-left:0;
+}
+#play{
+  font-size:190%;
+  grid-area:play;
+}
+#cards{
+  grid-area:cards;
+}
+#rules{
+  grid-area:rules;
+  border-right:0;
+}
+.home{
+  width:8vw;
+  height:8vh;
+}
+.book{
+  width:10vw;
+  height:7vh;
+}
+.card{
+  width:10vw;
+  height:9vh;
+}
+.heading{
+  font-size:130%;
+  color:#69ff55;
+}
+.box{
+  min-width:50%;
+  min-height:50%;
+  line-height:150%;
+  font-size:140%;
+  background-color:rgba(103, 150, 169,0.7);
+}
+section{
+  grid-area:section;
+}
+.content{
+  background-color:rgba(42, 69, 99,0.7);
+  width:90%;
+  height:90%;
+  box-shadow:0.2vh 0.2vw aqua;
+  overflow:auto;
+}
+footer{
+  grid-area:footer;
+  padding:1%;
+  background-image:linear-gradient(183deg, #216980, #205069);
+  color:#69ff33;
+}
+.left{
+  box-sizing:border-box;
+  font-size:130%;
+  min-width:33vw;
+  min-height:85%;
+  background-color:rgba(103, 150, 169,0.7);
+  margin:3%;
+  padding:2%;
+}
+.right{
+  box-sizing:border-box;
+  width:42vw;
+  height:85%;
+  margin:3%;
+  background-color:rgba(103, 150, 169,0.7);
+  padding:2.5%;
+}
+.centered{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.button{
+  text-transform:uppercase;
+  cursor:pointer;
+  width:80%;
+  margin:10%;
+  padding:3%;
+  background-color:rgba(88, 101, 169, 0.8);
+  text-align:center;
+  border:0.3vh solid black;
+  border-radius:4%;
+}
